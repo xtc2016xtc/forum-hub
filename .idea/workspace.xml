@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="161e3c2a-4e00-4122-898d-cdcd724bbcea" name="更改" comment="猎奇上传">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/forum-hub/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/login/LoginModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
+    <list default="true" id="161e3c2a-4e00-4122-898d-cdcd724bbcea" name="更改" comment="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件">
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/nav/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/nav/ParticleDecoration.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/nav/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/nav/hooks/useNavData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/nav/hooks/useNavGlow.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/nav/hooks/useNavScroll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/forum-hub/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/login/LoginModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +33,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="Python Script" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -56,20 +67,26 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Node.js/node_global&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\projectXTC\\Ruest\\poject\\webstron\\forum-hub\\frontend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/projectXTC/Ruest/poject/webstron/forum-hub/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "ts.external.directory.path": "F:\\projectXTC\\Ruest\\poject\\webstron\\forum-hub\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\projectXTC\Ruest\poject\webstron\forum-hub\backend" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +103,10 @@
       <option name="presentableId" value="Default" />
       <updated>1770689640667</updated>
       <workItem from="1770689642003" duration="5093000" />
-      <workItem from="1770708676453" duration="7084000" />
+      <workItem from="1770708676453" duration="7153000" />
+      <workItem from="1772258226077" duration="4392000" />
+      <workItem from="1772422558015" duration="3798000" />
+      <workItem from="1772590553376" duration="6905000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <option name="closed" value="true" />
@@ -104,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770693375751</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="猎奇上传">
+      <option name="closed" value="true" />
+      <created>1770715830251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770715830251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +145,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="初始化" />
     <MESSAGE value="猎奇上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="猎奇上传" />
+    <MESSAGE value="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件" />
   </component>
 </project>

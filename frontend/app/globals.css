@@ -3,6 +3,25 @@
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css" layer(utilities);
 
+
+@layer utilities {
+  .rotate-x-5 {
+    transform: rotateX(5deg);
+  }
+  .rotate-x-10 {
+    transform: rotateX(10deg);
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  .perspective-500 {
+    perspective: 500px;
+  }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
 @layer base {
   body {
     @apply bg-[#f5f5f5] text-gray-900;
