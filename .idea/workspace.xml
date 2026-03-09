@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="161e3c2a-4e00-4122-898d-cdcd724bbcea" name="更改" comment="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件">
-      <change afterPath="$PROJECT_DIR$/.idea/forum-hub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/utils/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/test_db.py" afterDir="false" />
+    <list default="true" id="161e3c2a-4e00-4122-898d-cdcd724bbcea" name="更改" comment="功能型提交：feat: 初始化 Flask 应用，配置数据库和日志&#10;•&#10;修复型提交：fix: 解决数据库会话未关闭的问题&#10;•&#10;配置型提交：chore: 添加日志文件配置">
+      <change afterPath="$PROJECT_DIR$/backend/Flask.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,7 @@
       <workItem from="1773022956508" duration="2869000" />
       <workItem from="1773025898853" duration="383000" />
       <workItem from="1773026295373" duration="305000" />
-      <workItem from="1773026606764" duration="2579000" />
+      <workItem from="1773026606764" duration="11278000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <option name="closed" value="true" />
@@ -142,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772597622731</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="功能型提交：feat: 初始化 Flask 应用，配置数据库和日志&#10;•&#10;修复型提交：fix: 解决数据库会话未关闭的问题&#10;•&#10;配置型提交：chore: 添加日志文件配置">
+      <option name="closed" value="true" />
+      <created>1773030960784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773030960784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +157,7 @@
     <MESSAGE value="初始化" />
     <MESSAGE value="猎奇上传" />
     <MESSAGE value="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件" />
+    <MESSAGE value="功能型提交：feat: 初始化 Flask 应用，配置数据库和日志&#10;•&#10;修复型提交：fix: 解决数据库会话未关闭的问题&#10;•&#10;配置型提交：chore: 添加日志文件配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能型提交：feat: 初始化 Flask 应用，配置数据库和日志&#10;•&#10;修复型提交：fix: 解决数据库会话未关闭的问题&#10;•&#10;配置型提交：chore: 添加日志文件配置" />
   </component>
 </project>
