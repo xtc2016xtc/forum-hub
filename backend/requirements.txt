@@ -1,4 +1,21 @@
-flask
-sqlalchemy
-pymysql
-python-dotenv
+# 核心框架（选Flask或FastAPI，这里用Flask，更适合新手）
+flask==2.3.3
+
+# 数据库相关
+sqlalchemy==2.0.15       # ORM框架（操作数据库）
+pymysql==1.1.0           # MySQL驱动（连接MySQL数据库）
+python-dotenv==1.0.0      # 加载.env环境变量
+
+# 接口文档（可选，FastAPI自带，Flask需额外装flasgger）
+# fastapi==0.95.2         # 若用FastAPI则保留，否则删除
+# uvicorn==0.22.0         # FastAPI的运行服务器，Flask用flask run
+
+# 数据验证
+pydantic==1.10.7          # 数据校验（可选，Flask用marshmallow更轻量）
+
+# 测试
+pytest==7.4.0             # 单元测试框架
+
+# 安全（可选，登录功能用）
+python-jose[cryptography]==3.3.0  # JWT令牌生成/验证
+passlib[bcrypt]==1.7.4            # 密码加密存储

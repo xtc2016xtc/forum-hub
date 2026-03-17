@@ -286,3 +286,41 @@ def delete_post(post_id):
 ```
 ## 日志的分级与过滤
 ### 作用：根据(开发、生产)控制日志详细程度
+```
+backend/                      # 项目根目录（工程化核心）
+├── app/                      # 应用核心包（所有业务代码）
+│   ├── __init__.py            # Flask应用工厂函数（初始化配置、扩展）
+│   ├── routes/                # 路由模块（按功能拆分）
+│   │   ├── __init__.py
+│   │   └── nav_routes.py       # 导航相关API路由（如/api/nav）
+│   ├── models/                # 数据模型（数据库ORM）
+│   │   ├── __init__.py
+│   │   └── nav_model.py       # 导航菜单模型（对应之前的models.py）
+│   ├── schemas/               # 数据验证/序列化（Pydantic/Marshmallow）
+│   │   ├── __init__.py
+│   │   └── nav_schema.py      # 导航数据校验规则（对应之前的schemas.py）
+│   ├── utils/                 # 工具模块（日志、通用函数）
+│   │   ├── __init__.py
+│   │   ├── logger.py           # 日志系统核心配置（你的日志系统）
+│   │   └── helpers.py          # 通用辅助函数（如跨域、错误处理）
+│   └── static/                # 静态资源（可选，如前端对接的图标）
+│       └── nav_icons/         # 导航图标
+├── logs/                      # 日志专用目录（统一存放日志文件）
+│   ├── forum_hub.log          # 主日志文件（轮转存储）
+│   └── error.log              # 错误日志（可选，分离错误日志）
+├── config/                    # 配置模块（按环境拆分）
+│   ├── __init__.py
+│   ├── base.py                # 基础配置（通用参数）
+│   ├── development.py         # 开发环境配置（DEBUG=True）
+│   └── production.py          # 生产环境配置（DEBUG=False）
+├── tests/                     # 测试模块（单元测试、集成测试）
+│   ├── __init__.py
+│   ├── test_nav_api.py        # 导航API测试用例（对应之前的test_db.py）
+│   └── conftest.py            # 测试夹具（数据库连接等）
+├── .env                       # 环境变量配置（密钥、数据库URI等）
+├── .gitignore                 # Git忽略文件（venv、logs/*.log等）
+├── requirements.txt           # 依赖包清单（精确版本）
+├── run.py                     # 应用入口（替代app.py，标准化启动）
+└── docs/                      # 文档目录（说明文档、API手册）
+    └── README.md              # 项目说明文档（本文档核心）
+```

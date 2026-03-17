@@ -1,2 +1,0 @@
-2026-03-09 11:26:39,148 - INFO - __init__:37 - Flask 应用启动成功！
-2026-03-09 11:26:39,180 - INFO - __init__:46 - 数据库连接成功，URL：mysql+pymysql://root:123456@localhost/fotumhub?charset=utf8mb4
