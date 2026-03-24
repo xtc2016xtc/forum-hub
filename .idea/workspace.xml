@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="161e3c2a-4e00-4122-898d-cdcd724bbcea" name="更改" comment="md文件提交">
-      <change afterPath="$PROJECT_DIR$/backend/app/models/nav_ model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/  __init__ .py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/nav _routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/schemas/__init__ .py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/schemas/nav _schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/utils/ logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/utils/__init__ .py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/utils/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/__init__ .py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/development.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/production.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/logs/forum _hub.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/__init__ .py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/test_ nav_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/forum-hub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forum-hub.iml" afterDir="false" />
+    <list default="true" id="161e3c2a-4e00-4122-898d-cdcd724bbcea" name="更改" comment="工程初始化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Flask.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/forum_hub.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/__init__ .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/utils/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/utils/logs/forum_hub.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +22,7 @@
         <option value="TypeScript File" />
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,6 +55,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -131,7 +107,10 @@
       <workItem from="1773108110732" duration="221000" />
       <workItem from="1773113978773" duration="7554000" />
       <workItem from="1773383647085" duration="2992000" />
-      <workItem from="1773713474143" duration="3038000" />
+      <workItem from="1773713474143" duration="4969000" />
+      <workItem from="1773817912670" duration="1160000" />
+      <workItem from="1773885225716" duration="1297000" />
+      <workItem from="1774320463933" duration="3317000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <option name="closed" value="true" />
@@ -197,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773133911081</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="工程初始化">
+      <option name="closed" value="true" />
+      <created>1773716661439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773716661439</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +200,7 @@
     <MESSAGE value="fix(nav): 修复导航栏下拉菜单白色空白块样式问题&#10;style(nav): 优化导航栏暗黑主题样式与动画特效&#10;refactor(nav): 导航栏组件工程化重构，拆分自定义Hook&#10;fix(nav): 修复导航栏TypeScript类型与ESLint报错&#10;feat(nav): 新增导航栏响应式布局与粒子特效&#10;chore: 完善.gitignore忽略规则，清理无效文件" />
     <MESSAGE value="功能型提交：feat: 初始化 Flask 应用，配置数据库和日志&#10;•&#10;修复型提交：fix: 解决数据库会话未关闭的问题&#10;•&#10;配置型提交：chore: 添加日志文件配置" />
     <MESSAGE value="md文件提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="md文件提交" />
+    <MESSAGE value="工程初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="工程初始化" />
   </component>
 </project>
